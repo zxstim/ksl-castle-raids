@@ -1,5 +1,14 @@
 # KSL Castle Raids
 
+## Castle map
+
+```bash
+✅  [Success]Hash: 0x8ce5a81c8885d4b9d00972996090799afcd8625b88aee303b01b744f4aba0be7
+Contract Address: 0x6EF551C906eE7E658Ec73471399D9C21Fda0DF18
+Block: 163066880
+Paid: 0.09506337 ETH (244536 gas * 388.75 gwei)
+```
+
 ## fKLAY token
 
 Deployment logs:
