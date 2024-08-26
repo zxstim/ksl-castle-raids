@@ -1,13 +1,28 @@
 # KSL Castle Raids
 
-## Category
+## Briefing
+
+## Rules
+Below is the 3 main attack plans, graded based on difficulty.
 | Category | Contract |
 | --- | --- |
 | `Easy` | `RaidTreasury.sol` |
 | `Medium` | `RaidGemVault.sol` |
 | `Hard` | `BanditFort.sol` |
 
-## Castle map
+### `RaidTreasury.sol`
+For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can drain the entire balance of `GOLD` tokens inside the smart contract, you have successfully raided the enemy treasuries.
+
+### `RaidGemVault.sol`
+For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can drain the `GEM` NFT inside the smart contract, you have successfully raided the enemy vault.
+
+### `BanditFort.sol`
+For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can break the contract so that nobody can be `banditLord`, you have successfully eliminated an enemy clan.
+
+## Prizes
+After completion, ask one of the Kaia team members at the KSL for your rewards.
+
+## Castle map address
 
 Deployment logs:
 ```bash
@@ -17,17 +32,17 @@ Block: 163078779
 Paid: 0.0178661725 ETH (649679 gas * 27.5 gwei)
 ```
 
-## fKLAY token
+## GOLD token address
 
 Deployment logs:
 ```bash
-✅  [Success]Hash: 0xa5d20d3bf6cd4beec5134eb4810adb60f22271b165fb3cc227375bd99a6027bc
-Contract Address: 0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
-Block: 163063881
-Paid: 0.038416200001536648 ETH (1536648 gas * 25.000000001 gwei)
+✅  [Success]Hash: 0xaadb9b962d9b3e485f0d129afadac6224b6fb497f1418f4cbfd257d78be39ef3
+Contract Address: 0x32Bf51fa408A0ee9B7A414C6A793760CaF086118
+Block: 163091994
+Paid: 0.042233015 ETH (1535746 gas * 27.5 gwei)
 ```
 
-## Diamond Gem Stone
+## Diamond Gem Stone (GEM) NFT address
 
 Deployment logs:
 ```bash

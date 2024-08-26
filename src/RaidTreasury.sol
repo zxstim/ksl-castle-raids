@@ -10,14 +10,14 @@ contract RaidTreasury {
     mapping(address => uint256) public treasury;
 
     /// @dev Fake KLAY token address
-    address fKLAYTokenAddress = 0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf;
+    address goldAddress = 0x32Bf51fa408A0ee9B7A414C6A793760CaF086118;
     /// @dev Fake KLAY token interface
-    IERC20 public fKLAY = IERC20(fKLAYTokenAddress);
+    IERC20 public gold = IERC20(goldAddress);
     address public owner;
 
     constructor() {
         owner = msg.sender;
-        treasury[msg.sender] = 1000 * (1 ether);
+        treasury[msg.sender] = 10000 * (1 ether);
     }
 
     modifier onlyOwner() {
@@ -38,7 +38,7 @@ contract RaidTreasury {
     }
 
     function withdraw() public onlyOwner {
-        fKLAY.transfer(msg.sender, fKLAY.balanceOf(address(this)));
+        gold.transfer(msg.sender, gold.balanceOf(address(this)));
     }
 
     receive() external payable {
