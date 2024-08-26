@@ -23,3 +23,6 @@ deploy-diamondgemstone:
 
 mint-diamondgemstone:
 	forge script script/MintDiamondGemstone.s.sol --rpc-url ${KAIROS_TESTNET_RPC_URL} --account dev --sender ${SENDER} --broadcast --gas-estimate-multiplier 200 -vvvv
+
+disburse-diamondgemstone-to-castles:
+	forge script script/DisburseDiamondGemStone.s.sol --rpc-url ${KAIROS_TESTNET_RPC_URL} --account dev --sender ${SENDER} --broadcast --gas-estimate-multiplier 200 -vvvv

@@ -6,7 +6,7 @@ import { CastleMap } from "src/CastleMap.sol";
 import { IGasliteDrop } from "src/IGasliteDrop.sol";
 import { DiamondGemStone } from "src/DiamondGemStone.sol";
 
-contract DisburseFKLAY is Script {
+contract DisburseDiamondGemStone is Script {
 
     DiamondGemStone public diamondGemStone = DiamondGemStone(0x7bE02dECC3DC3BE771d851fcF457Bd9bAA99010A);
     CastleMap public castleMap = CastleMap(0x6EF551C906eE7E658Ec73471399D9C21Fda0DF18);
