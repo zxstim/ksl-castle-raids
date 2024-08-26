@@ -2,6 +2,7 @@
 
 ## Castle map
 
+Deployment logs:
 ```bash
 ✅  [Success]Hash: 0x8ce5a81c8885d4b9d00972996090799afcd8625b88aee303b01b744f4aba0be7
 Contract Address: 0x6EF551C906eE7E658Ec73471399D9C21Fda0DF18
@@ -19,12 +20,12 @@ Block: 163063881
 Paid: 0.038416200001536648 ETH (1536648 gas * 25.000000001 gwei)
 ```
 
-Treasury addresses:
+## Diamond Gem Stone
 
+Deployment logs:
 ```bash
-RaidTreasury deployed at:  0x77eA197d0E00dEE1D42fD9E5A2C06Bfff6fCb814
-RaidTreasury deployed at:  0x575E1dd49F61a9520D2DF6Ca94588f158494896a
-RaidTreasury deployed at:  0x27FFcC3acb8C1388C4c448532A9F82C85A8E1d61
-RaidTreasury deployed at:  0x0f1A57634873f34C7E0eBcfd920849De4724e75B
-RaidTreasury deployed at:  0xD5805d0efc0A075B7C17271E1005D735763Ce5e5
+✅  [Success]Hash: 0x2431bde7c77b4a7c530e04629acde754c06703832c85df587ff5756c42c626f8
+Contract Address: 0x7bE02dECC3DC3BE771d851fcF457Bd9bAA99010A
+Block: 163073556
+Paid: 0.14547203 ETH (2644946 gas * 55 gwei)
 ```
