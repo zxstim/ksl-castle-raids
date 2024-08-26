@@ -13,3 +13,6 @@ docs/
 # local env files
 .env
 .env*.local
+
+# Special file
+script/DeployGemVaults.s.sol
