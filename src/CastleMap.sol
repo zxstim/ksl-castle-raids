@@ -1,17 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
+
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @custom:security-contact zxstim@gmail.com
 contract CastleMap is Ownable {
-
     error CallerIsNotOwner();
 
     address[] private treasuryCastles;
     address[] private gemCastles;
 
-    constructor(address initialOwner) Ownable(initialOwner) {
-    }
+    constructor(address initialOwner) Ownable(initialOwner) { }
 
     function addTreasuryCastle(address newCastle) public onlyOwner returns (address) {
         treasuryCastles.push(newCastle);
