@@ -56,3 +56,13 @@ Paid: 0.038416200001536648 ETH (1536648 gas * 25.000000001 gwei)
 
 ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
 ```
+
+Treasury addresses:
+
+```bash
+RaidTreasury deployed at:  0x77eA197d0E00dEE1D42fD9E5A2C06Bfff6fCb814
+RaidTreasury deployed at:  0x575E1dd49F61a9520D2DF6Ca94588f158494896a
+RaidTreasury deployed at:  0x27FFcC3acb8C1388C4c448532A9F82C85A8E1d61
+RaidTreasury deployed at:  0x0f1A57634873f34C7E0eBcfd920849De4724e75B
+RaidTreasury deployed at:  0xD5805d0efc0A075B7C17271E1005D735763Ce5e5
+```

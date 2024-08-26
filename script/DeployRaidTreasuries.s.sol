@@ -14,7 +14,7 @@ contract Deploy is Script {
         /// @dev start the broadcast
         vm.startBroadcast();
 
-        for (uint16 i = 0; i < 5; i++) {
+        for (uint16 i = 0; i < 100; i++) {
             RaidTreasury raidTreasury = new RaidTreasury();
             treasuries[i] = address(raidTreasury);
             numberOfTreasuries++;
