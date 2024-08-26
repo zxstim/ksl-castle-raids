@@ -13,57 +13,10 @@ Paid: 0.09506337 ETH (244536 gas * 388.75 gwei)
 
 Deployment logs:
 ```bash
-Traces:
-  [966605] Deploy::run()
-    ├─ [0] VM::startBroadcast()
-    │   └─ ← [Return]
-    ├─ [929600] → new FakeKLAY@0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
-    │   ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0x6FaFF29226219756aa40CE648dbc65FB41DE5F72)
-    │   └─ ← [Return] 4292 bytes of code
-    ├─ [0] VM::stopBroadcast()
-    │   └─ ← [Return]
-    └─ ← [Return] FakeKLAY: [0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf]
-
-
-Script ran successfully.
-
-== Return ==
-0: contract FakeKLAY 0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
-
-## Setting up 1 EVM.
-==========================
-Simulated On-chain Traces:
-
-  [929600] → new FakeKLAY@0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
-    ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0x6FaFF29226219756aa40CE648dbc65FB41DE5F72)
-    └─ ← [Return] 4292 bytes of code
-
-
-==========================
-
-Chain 1001
-
-Estimated gas price: 50.000000001 gwei
-
-Estimated total gas used for script: 2136960
-
-Estimated amount required: 0.10684800000213696 ETH
-
-==========================
-Enter keystore password:
-
-##### 1001
 ✅  [Success]Hash: 0xa5d20d3bf6cd4beec5134eb4810adb60f22271b165fb3cc227375bd99a6027bc
 Contract Address: 0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
 Block: 163063881
 Paid: 0.038416200001536648 ETH (1536648 gas * 25.000000001 gwei)
-
-✅ Sequence #1 on 1001 | Total Paid: 0.038416200001536648 ETH (1536648 gas * avg 25.000000001 gwei)
-
-
-==========================
-
-ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
 ```
 
 Treasury addresses:

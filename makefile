@@ -15,6 +15,9 @@ deploy-kairos-castle-map:
 deploy-kairos-raid-treasuries:
 	forge script script/DeployRaidTreasuries.s.sol --rpc-url ${KAIROS_TESTNET_RPC_URL} --account dev --sender ${SENDER} --broadcast --gas-estimate-multiplier 200 -vvvv
 
+get-kairos-fklay:
+	cast call 0x6b175474e89094c44da98b954eedeac495271d0f "totalSupply()(uint256)" --rpc-url ${KAIROS_TESTNET_RPC_URL}
+
 interact-kairos:
 	forge script script/Interactions.s.sol --rpc-url ${KAIROS_TESTNET_RPC_URL} --account dev --sender ${SENDER} --broadcast --gas-estimate-multiplier 200 -vvvv
 
