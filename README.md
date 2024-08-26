@@ -1,5 +1,12 @@
 # KSL Castle Raids
 
+## Category
+| Category | Contract |
+| --- | --- |
+| `Easy` | `RaidTreasury.sol` |
+| `Medium` | `RaidGemVault.sol` |
+| `Hard` | `BanditFort.sol` |
+
 ## Castle map
 
 Deployment logs:
