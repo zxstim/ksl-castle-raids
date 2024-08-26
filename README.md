@@ -1,66 +1,58 @@
-## Foundry
+# KSL Castle Raids
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## fKLAY token
 
-Foundry consists of:
+Deployment logs:
+```bash
+Traces:
+  [966605] Deploy::run()
+    ├─ [0] VM::startBroadcast()
+    │   └─ ← [Return]
+    ├─ [929600] → new FakeKLAY@0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
+    │   ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0x6FaFF29226219756aa40CE648dbc65FB41DE5F72)
+    │   └─ ← [Return] 4292 bytes of code
+    ├─ [0] VM::stopBroadcast()
+    │   └─ ← [Return]
+    └─ ← [Return] FakeKLAY: [0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf]
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-## Documentation
+Script ran successfully.
 
-https://book.getfoundry.sh/
+== Return ==
+0: contract FakeKLAY 0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
 
-## Usage
+## Setting up 1 EVM.
+==========================
+Simulated On-chain Traces:
 
-### Build
+  [929600] → new FakeKLAY@0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
+    ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0x6FaFF29226219756aa40CE648dbc65FB41DE5F72)
+    └─ ← [Return] 4292 bytes of code
 
-```shell
-$ forge build
-```
 
-### Test
+==========================
 
-```shell
-$ forge test
-```
+Chain 1001
 
-### Format
+Estimated gas price: 50.000000001 gwei
 
-```shell
-$ forge fmt
-```
+Estimated total gas used for script: 2136960
 
-### Gas Snapshots
+Estimated amount required: 0.10684800000213696 ETH
 
-```shell
-$ forge snapshot
-```
+==========================
+Enter keystore password:
 
-### Anvil
+##### 1001
+✅  [Success]Hash: 0xa5d20d3bf6cd4beec5134eb4810adb60f22271b165fb3cc227375bd99a6027bc
+Contract Address: 0x0b1FfE056fD5CD4918747D5F4872901B6Ad87aBf
+Block: 163063881
+Paid: 0.038416200001536648 ETH (1536648 gas * 25.000000001 gwei)
 
-```shell
-$ anvil
-```
+✅ Sequence #1 on 1001 | Total Paid: 0.038416200001536648 ETH (1536648 gas * avg 25.000000001 gwei)
 
-### Deploy
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+==========================
 
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
 ```
