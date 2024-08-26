@@ -4,10 +4,10 @@
 
 Deployment logs:
 ```bash
-✅  [Success]Hash: 0x8ce5a81c8885d4b9d00972996090799afcd8625b88aee303b01b744f4aba0be7
-Contract Address: 0x6EF551C906eE7E658Ec73471399D9C21Fda0DF18
-Block: 163066880
-Paid: 0.09506337 ETH (244536 gas * 388.75 gwei)
+✅  [Success]Hash: 0xf1c9ea7a6366b99ab8a03375c3419494a9f690f3b5815ac439c36f6610339886
+Contract Address: 0x40A72f733a7168337Cc2523d20511AD6A569A2C3
+Block: 163078779
+Paid: 0.0178661725 ETH (649679 gas * 27.5 gwei)
 ```
 
 ## fKLAY token

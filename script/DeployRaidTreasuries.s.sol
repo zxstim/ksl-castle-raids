@@ -7,7 +7,7 @@ import { CastleMap } from "src/CastleMap.sol";
 
 contract Deploy is Script {
     address public owner = 0x6FaFF29226219756aa40CE648dbc65FB41DE5F72;
-    CastleMap public castleMap = CastleMap(0x6EF551C906eE7E658Ec73471399D9C21Fda0DF18);
+    CastleMap public castleMap = CastleMap(0x40A72f733a7168337Cc2523d20511AD6A569A2C3);
 
     function run() external {
 
