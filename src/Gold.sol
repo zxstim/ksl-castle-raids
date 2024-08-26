@@ -8,11 +8,11 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 
 /// @custom:security-contact zxstim@gmail.com
-contract FakeKLAY is ERC20, ERC20Burnable, Ownable, ERC20Permit {
+contract Gold is ERC20, ERC20Burnable, Ownable, ERC20Permit {
     constructor(address initialOwner)
-        ERC20("FakeKLAY", "fKLAY")
+        ERC20("Gold", "GOLD")
         Ownable(initialOwner)
-        ERC20Permit("FakeKLAY")
+        ERC20Permit("Gold")
     {}
 
     function mint(address to, uint256 amount) public onlyOwner {
