@@ -11,4 +11,5 @@ out/
 docs/
 
 # local env files
+.env
 .env*.local
