@@ -35,6 +35,5 @@ wrap_comments = true
 
 [rpc_endpoints]
 kairos_testnet = "${KAIROS_TESTNET_RPC_URL}"
-kaia_mainnet = "${KAIA_MAINNET_RPC_URL}"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
