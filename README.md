@@ -19,6 +19,12 @@ For this attack plan, you need to formulate an attack angle for the smart contra
 ### `BanditFort.sol`
 For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can break the contract so that nobody can be `banditLord`, you have successfully eliminated an enemy clan.
 
+### `CastleMap.sol`
+To make it easy to find, our scouts have reported back with a smart contract storing all the maps.
+
+
+
+
 ## Prizes
 After completion, ask one of the Kaia team members at the KSL for your rewards.
 
@@ -27,7 +33,7 @@ After completion, ask one of the Kaia team members at the KSL for your rewards.
 Deployment logs:
 ```bash
 ✅  [Success]Hash: 0xf1c9ea7a6366b99ab8a03375c3419494a9f690f3b5815ac439c36f6610339886
-Contract Address: 0x40A72f733a7168337Cc2523d20511AD6A569A2C3
+Contract Address: 0x95CE14EE82410C4a7296205e0c663969703Dc857
 Block: 163078779
 Paid: 0.0178661725 ETH (649679 gas * 27.5 gwei)
 ```

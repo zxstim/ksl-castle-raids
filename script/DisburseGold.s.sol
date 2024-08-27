@@ -9,7 +9,7 @@ import { Gold } from "src/Gold.sol";
 contract DisburseGold is Script {
 
     Gold public gold = Gold(0x32Bf51fa408A0ee9B7A414C6A793760CaF086118);
-    CastleMap public castleMap = CastleMap(0x40A72f733a7168337Cc2523d20511AD6A569A2C3);
+    CastleMap public castleMap = CastleMap(0x95CE14EE82410C4a7296205e0c663969703Dc857);
     IGasliteDrop public gasliteDrop = IGasliteDrop(0x61684fc62B6a0f1273f69D9Fca0E264001a61Db6);
 
     

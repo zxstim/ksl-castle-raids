@@ -9,7 +9,7 @@ import { DiamondGemStone } from "src/DiamondGemStone.sol";
 contract DisburseDiamondGemStone is Script {
 
     DiamondGemStone public diamondGemStone = DiamondGemStone(0x7bE02dECC3DC3BE771d851fcF457Bd9bAA99010A);
-    CastleMap public castleMap = CastleMap(0x40A72f733a7168337Cc2523d20511AD6A569A2C3);
+    CastleMap public castleMap = CastleMap(0x95CE14EE82410C4a7296205e0c663969703Dc857);
     IGasliteDrop public gasliteDrop = IGasliteDrop(0x61684fc62B6a0f1273f69D9Fca0E264001a61Db6);
 
     
