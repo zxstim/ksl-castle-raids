@@ -9,6 +9,7 @@ contract CastleMap is Ownable {
 
     address[] private treasuryCastles;
     address[] private gemCastles;
+    address[] private banditForts;
 
     constructor(address initialOwner) Ownable(initialOwner) { }
 
@@ -20,6 +21,11 @@ contract CastleMap is Ownable {
     function addGemCastle(address newCastle) public onlyOwner returns (address) {
         gemCastles.push(newCastle);
         return newCastle;
+    }
+
+    function addBanditFort(address newBanditFort) public onlyOwner returns (address) {
+        banditForts.push(newBanditFort);
+        return newBanditFort;
     }
 
     function removeTreasuryCastle(address castle) public onlyOwner {
@@ -42,6 +48,16 @@ contract CastleMap is Ownable {
         }
     }
 
+    function removeBanditFort(address banditFort) public onlyOwner {
+        for (uint256 i = 0; i < banditForts.length; i++) {
+            if (banditForts[i] == banditFort) {
+                banditForts[i] = banditForts[banditForts.length - 1];
+                banditForts.pop();
+                break;
+            }
+        }
+    }
+
     function getAllTreasuryCastles() public view returns (address[] memory) {
         return treasuryCastles;
     }
@@ -50,11 +66,19 @@ contract CastleMap is Ownable {
         return gemCastles;
     }
 
+    function getAllBanditForts() public view returns (address[] memory) {
+        return banditForts;
+    }
+
     function purgeAllTreasuryCastles() public onlyOwner {
         treasuryCastles = new address[](0);
     }
 
     function purgeAllGemCastles() public onlyOwner {
         gemCastles = new address[](0);
+    }
+
+    function purgeAllBanditForts() public onlyOwner {
+        banditForts = new address[](0);
     }
 }
