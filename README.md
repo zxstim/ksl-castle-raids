@@ -12,10 +12,11 @@ Below is the 3 main attack plans, graded based on difficulty.
 | `Hard` | `BanditFort.sol` |
 
 ### `RaidTreasury.sol`
-For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can drain the entire balance of `GOLD` tokens inside the smart contract, you have successfully raided the enemy treasuries.
+For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can drain the entire balance of `GOLD` tokens inside the smart contract, you have successfully raided the enemy treasuries. Look carefully at the contract's code.
+
 
 ### `RaidGemVault.sol`
-For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can drain the `GEM` NFT inside the smart contract, you have successfully raided the enemy vault.
+For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. Most importantly, you need to unlock the vault. If you can drain the `GEM` NFT inside the smart contract, you have successfully raided the enemy vault.
 
 ### `BanditFort.sol`
 For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can break the contract so that nobody else can be `banditLord`, you have successfully eliminated an enemy clan.
@@ -30,7 +31,29 @@ Included in this attack kit, you can find the relevant ABIs to be used in your a
 After completion, ask one of the Kaia team members at the KSL for your rewards.
 
 ## Submission guidelines
-1. Please go to this link: 
+1. First, please register by opening a PR adding a folder with the same name as your github handle in the [`submissions` folder](/ctf/submissions/) We have included an [example](/ctf/submissions/zxstim/) inside for your reference. Your folder structure would look like this:
+```bash
+submissions/
+└── your-name/
+    └── your-name.md
+```
+Inside your `your-name.md` file, add the title to be:
+```
+# KSL Castle Raids
+```
+You will use this file for your own submission later.
+2. Review the attack kit, select one address for each plan from `CastleMap` contract then attack.  
+3. Collect the `GOLD` token and the `GEM` NFT. For the last challenge, you need to break the contract.  
+4. Add the following to `your-name.md`:
+```
+My address: 0xabc...
+My attacked RaidTreasury: 0xabc...
+My attacked GemVault: 0xabc...
+My attacked BanditFort: 0xabc...
+The broken banditLord: 0xabc...
+``` 
+5. Open a PR and call over a Kaia team member to review your work.
+6. If accepted, we will give you the rewards.
 
 ## Castle map address
 
