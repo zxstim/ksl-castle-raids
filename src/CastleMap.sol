@@ -3,6 +3,7 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+
 /// @custom:security-contact zxstim@gmail.com
 contract CastleMap is Ownable {
     error CallerIsNotOwner();
@@ -12,6 +13,7 @@ contract CastleMap is Ownable {
     address[] private banditForts;
 
     constructor(address initialOwner) Ownable(initialOwner) { }
+
 
     function addTreasuryCastle(address newCastle) public onlyOwner returns (address) {
         treasuryCastles.push(newCastle);

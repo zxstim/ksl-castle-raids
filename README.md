@@ -1,6 +1,7 @@
 # KSL Castle Raids
 
 ## Briefing
+Welcome folks to KSL catsle raids. You will be our main attack force to raid the enemy castles. You can read the detail rules below.
 
 ## Rules
 Below is the 3 main attack plans, graded based on difficulty.
@@ -17,16 +18,19 @@ For this attack plan, you need to formulate an attack angle for the smart contra
 For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can drain the `GEM` NFT inside the smart contract, you have successfully raided the enemy vault.
 
 ### `BanditFort.sol`
-For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can break the contract so that nobody can be `banditLord`, you have successfully eliminated an enemy clan.
+For this attack plan, you need to formulate an attack angle for the smart contract and write your own attack script. If you can break the contract so that nobody else can be `banditLord`, you have successfully eliminated an enemy clan.
 
 ### `CastleMap.sol`
-To make it easy to find, our scouts have reported back with a smart contract storing all the maps.
+To make it easy to find, our scouts have reported back with a smart contract storing addresses of all the trasuries, vaults and forts.
 
-
-
+### ABIs
+Included in this attack kit, you can find the relevant ABIs to be used in your attack.
 
 ## Prizes
 After completion, ask one of the Kaia team members at the KSL for your rewards.
+
+## Submission guidelines
+1. Please go to this link: 
 
 ## Castle map address
 
@@ -56,4 +60,13 @@ Deployment logs:
 Contract Address: 0x7bE02dECC3DC3BE771d851fcF457Bd9bAA99010A
 Block: 163073556
 Paid: 0.14547203 ETH (2644946 gas * 55 gwei)
+```
+
+## Factory (maybe helpful)
+
+```bash
+✅  [Success]Hash: 0x5f3119a1f21c3c00f109f02591b23aeff404bd7a00172761b8d0948c1f145cde
+Contract Address: 0x577384f28445A8E62a4b0AaACdE7f21f78200b7E
+Block: 163257440
+Paid: 0.021949125000877965 ETH (877965 gas * 25.000000001 gwei)
 ```

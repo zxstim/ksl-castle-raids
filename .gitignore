@@ -17,3 +17,4 @@ docs/
 # Special file
 script/DeployGemVaults.s.sol
 script/attacks/
+Factory.sol
