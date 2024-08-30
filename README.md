@@ -31,7 +31,8 @@ Included in this attack kit, you can find the relevant ABIs to be used in your a
 After completion, ask one of the Kaia team members at the KSL for your rewards.
 
 ## Submission guidelines
-1. First, please register by opening a PR adding a folder with the same name as your github handle in the [`submissions` folder](/ctf/submissions/) We have included an [example](/ctf/submissions/zxstim/) inside for your reference. Your folder structure would look like this:
+### Step 1
+First, please register by opening a PR adding a folder with the same name as your github handle in the [`submissions` folder](/ctf/submissions/) We have included an [example](/ctf/submissions/zxstim/) inside for your reference. Your folder structure would look like this:
 ```bash
 submissions/
 └── your-name/
@@ -42,18 +43,29 @@ Inside your `your-name.md` file, add the title to be:
 # KSL Castle Raids
 ```
 You will use this file for your own submission later.
-2. Review the attack kit, select one address for each plan from `CastleMap` contract then attack.  
-3. Collect the `GOLD` token and the `GEM` NFT. For the last challenge, you need to break the contract.  
-4. Add the following to `your-name.md`:
+### Step 2  
+Review the attack kit, select one address for each plan from `CastleMap` contract then attack.  
+
+### Step 3  
+Collect the `GOLD` token and the `GEM` NFT. For the last challenge, you need to break the contract.  
+
+### Step 4
+Add the following to `your-name.md`:
 ```
 My address: 0xabc...
-My attacked RaidTreasury: 0xabc...
-My attacked GemVault: 0xabc...
-My attacked BanditFort: 0xabc...
-The broken banditLord: 0xabc...
+My attacked `RaidTreasury`: 0xabc...
+My attacked `GemVault`: 0xabc...
+My attacked `BanditFort`: 0xabc...
+The broken `banditLord`: 0xabc...
 ``` 
-5. Open a PR and call over a Kaia team member to review your work.
-6. If accepted, we will give you the rewards.
+1. Open a PR and call over a Kaia team member to review your work.
+2. If accepted, we will give you the rewards.
+
+## For Kaia judge
+You can use [Kaiascan on Kairos](https://kairos.kaiascan.io) to check.  
+- Participant should receive the `GOLD` token from the address of their attacked `RaidTreasury`
+- Participant should receive the `GEM` NFT from the address of their attacked `GemVault`
+- `banditLord` should not be this address `0x6FaFF29226219756aa40CE648dbc65FB41DE5F72` in the attacked `BanditFort`. There should be a transaction from the attacked `BanditFort` to another contract.
 
 ## Castle map address
 
