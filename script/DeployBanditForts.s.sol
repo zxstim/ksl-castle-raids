@@ -12,7 +12,7 @@ contract Deploy is Script {
         
         /// @dev start the broadcast
         vm.startBroadcast();
-        for (uint16 i = 0; i < 3; i++) {
+        for (uint16 i = 0; i < 10; i++) {
             BanditFort banditFort = new BanditFort();
             console.log("RaidTreasury deployed at: ", address(banditFort));
             castleMap.addBanditFort(address(banditFort));
